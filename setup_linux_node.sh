@@ -1,10 +1,10 @@
 #!/bin/bash
 
-RELEASEFILE=""
+RELEASEFILE="https://github.com/SalenCoin/Releases/blob/master/salen-linux.zip"
 SENTINELGIT="" # leave empty if coin has no sentinel
 
 daemon="salend"
-cli=".salen-cli"
+cli="salen-cli"
 stopcli="stop"
 archive_path="salencore-1.0.0/bin/"
 core_dir=".salencore"

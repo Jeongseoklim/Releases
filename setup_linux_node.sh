@@ -1,7 +1,7 @@
 #!/bin/bash
 
-RELEASEFILE="https://github.com/SalenCoin/Releases/blob/master/salen-linux.zip"
-SENTINELGIT="" # leave empty if coin has no sentinel
+RELEASEFILE="https://github.com/SalenCoin/Releases/blob/master/salenlinuxw64.tar.gz"
+SENTINELGIT="https://github.com/SalenCoin/Sentiel.git" # leave empty if coin has no sentinel
 
 daemon="salend"
 cli="salen-cli"
@@ -169,7 +169,7 @@ function setup_initial_config {
 	rpcpassword=$(randpw)
 	rpcallowip=127.0.0.1
 	rpcthreads=8
-	rpcport=12228
+	rpcport=9012
 	#----
 	listen=1
 	server=1

@@ -1,7 +1,7 @@
 #!/bin/bash
 
 RELEASEFILE="https://github.com/SalenCoin/Releases/blob/master/salenlinuxw64.tar.gz"
-SENTINELGIT="" # leave empty if coin has no sentinel
+SENTINELGIT="https://github.com/SalenCoin/Sentiel.git" # leave empty if coin has no sentinel
 
 daemon="salend"
 cli="salen-cli"

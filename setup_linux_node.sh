@@ -10,7 +10,7 @@ archive_path="salencore-1.0.0/bin/"
 core_dir=".salencore"
 config_path="$core_dir/salen.conf"
 node_user="salen"
-mainnet="9103"
+mainnet="9102"
 disablewallet="-disablewallet"
 
 # this variable is used to keep track of the upgrades to our environment

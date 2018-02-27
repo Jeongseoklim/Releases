@@ -4,7 +4,7 @@ RELEASEFILE="https://salencoin.com/release/salencore-latest-linux64.tar.gz"
 SENTINELGIT="" # leave empty if coin has no sentinel
 
 daemon="salend"
-cli="salen-cli"
+cli="salend"
 stopcli="stop"
 archive_path="salencore-1.0.0/bin/"
 core_dir=".salencore"

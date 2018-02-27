@@ -10,7 +10,7 @@ archive_path="salencore-1.0.0/bin/"
 core_dir=".salencore"
 config_path="$core_dir/salen.conf"
 node_user="salen"
-mainnet="9102"
+mainnet="9103"
 disablewallet="-disablewallet"
 
 # this variable is used to keep track of the upgrades to our environment
@@ -169,7 +169,7 @@ function setup_initial_config {
 	rpcpassword=$(randpw)
 	rpcallowip=127.0.0.1
 	rpcthreads=8
-	rpcport=12228
+	rpcport=9012
 	#----
 	listen=1
 	server=1

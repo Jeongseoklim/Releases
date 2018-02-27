@@ -1,6 +1,6 @@
 #!/bin/bash
 
-RELEASEFILE="https://rawgit.com/SalenCoin/Releases/master/salenlinuxw64.tar.gz"
+RELEASEFILE="https://github.com/SalenCoin/Releases/blob/master/salenlinuxw64.tar.gz"
 SENTINELGIT="" # leave empty if coin has no sentinel
 
 daemon="salend"
